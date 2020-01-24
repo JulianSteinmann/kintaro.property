@@ -92,4 +92,13 @@ h1, h2, h3, h4 {
     border: 0 !important;
     box-shadow: none; }
 
+.col-padding {
+  padding: 40px; }
+
+i {
+  font-size: 30px;
+  color: #d4cdc7;
+  transform: translateY(4px);
+  margin-right: 10px; }
+
 /*# sourceMappingURL=style.css.map */
