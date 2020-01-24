@@ -105,3 +105,12 @@ i {
   transform: translateY(4px);
   margin-right: 10px;
 }
+@media screen and (max-width: 999px) {
+  .contact-container {
+    text-align: center;
+    .py-0:first-of-type {
+      margin-bottom: 30px;
+    }
+
+  }
+}

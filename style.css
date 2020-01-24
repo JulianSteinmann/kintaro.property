@@ -101,4 +101,10 @@ i {
   transform: translateY(4px);
   margin-right: 10px; }
 
+@media screen and (max-width: 999px) {
+  .contact-container {
+    text-align: center; }
+    .contact-container .py-0:first-of-type {
+      margin-bottom: 30px; } }
+
 /*# sourceMappingURL=style.css.map */
