@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 #carouselExampleControls {
   width: 100%;
-  max-height: 70vh;
+  max-height: 85vh;
   overflow: hidden;
   display: flex;
   align-items: center; }
@@ -100,5 +100,24 @@ i {
   color: #d4cdc7;
   transform: translateY(4px);
   margin-right: 10px; }
+
+@media screen and (max-width: 999px) {
+  .contact-container {
+    text-align: center; }
+    .contact-container .py-0:first-of-type {
+      margin-bottom: 30px; } }
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.7); }
+  to {
+    opacity: 1; } }
+.fade-in-element {
+  animation: fade-up .8s ease-out forwards; }
 
 /*# sourceMappingURL=style.css.map */
